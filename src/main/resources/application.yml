@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-service
+  profiles:
+    active: dev
+    include: ops
+zuul:
+  prefix: /test
+  routes:
+    client:
+      path:/client/**
+      url :discovery-client
