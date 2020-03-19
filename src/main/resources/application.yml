@@ -10,3 +10,4 @@ zuul:
     client:
       path:/client/**
       url :discovery-client
+

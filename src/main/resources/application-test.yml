@@ -1,0 +1,9 @@
+server:
+  port: 28801
+
+eureka:
+  instance: trying-discoryServer-001
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:28801/eureka/
+    register-with-eureka: false
